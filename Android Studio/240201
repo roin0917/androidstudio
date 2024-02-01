@@ -1,5 +1,5 @@
-#Android Studio Structure
-'''
+# Android Studio Structure
+```
 Android
 📂app                        //하나의 모듈
  ┣ 📂manifests               //AndroidManifest.xml 파일이 위치함.
@@ -16,4 +16,4 @@ Android
  ┣ 📄 build.gradle(project)  //모든 모듈에 적용되는 빌드 구성을 정의
  ┗ 📄 build.gradle(module)   //각 모듈에 대한 빌드 구성을 정의(ex.라이브러리 dependency)
    ...이하 생략
-'''
+```
