@@ -1,1 +1,19 @@
-
+#Android Studio Structure
+'''
+Android
+📂app                        //하나의 모듈
+ ┣ 📂manifests               //AndroidManifest.xml 파일이 위치함.
+ ┣ 📂java                    //관행적으로 폴더이름은 java
+ ┃ ┣ 📂com.example.app       //java 혹은 kotlin 파일들이 위치함.
+ ┃ ┣ 📂com.example.app(androidTest) //testcode 작성
+ ┃ ┗ 📂com.example.app(test)        //testcode 작성
+ ┗ 📂res                     //resource 관련 파일들이 위치함.    
+   ┣ 📂drawable              //image, 
+   ┣ 📂layout                //ui 컴포넌트들. ex) activity_main.xml
+   ┣ 📂mipmap                //런처 아이콘(크기별)
+   ┗ 📂values                //colors, strings, themes
+🐘Gradle Scripts
+ ┣ 📄 build.gradle(project)  //모든 모듈에 적용되는 빌드 구성을 정의
+ ┗ 📄 build.gradle(module)   //각 모듈에 대한 빌드 구성을 정의(ex.라이브러리 dependency)
+   ...이하 생략
+'''
